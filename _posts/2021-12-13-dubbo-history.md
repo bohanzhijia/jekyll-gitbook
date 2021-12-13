@@ -1,8 +1,8 @@
 ---
-title: How to Generate TOC
-author: Tao He
-date: 2019-04-28
-category: Jekyll
+title: Dubbo History
+author: 锋言锋语
+date: 2021-12-13
+category: dubbo
 layout: post
 ---
 
@@ -13,6 +13,13 @@ configuration in `_config.yml`:
 ```yaml
 toc:
     enabled: true
+```
+
+```json
+{
+  "aa": "bbb",
+  "cc": "dd"
+}
 ```
 
 Why this repo
