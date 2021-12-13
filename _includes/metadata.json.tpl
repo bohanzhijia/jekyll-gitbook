@@ -22,7 +22,8 @@
             },
             "search": {},
             "sharing": {
-                "all": ["facebook", "google", "twitter", "weibo", "instapaper"],
+                "all": ["testUrl","facebook", "google", "twitter", "weibo", "instapaper"],
+                "testUrl": true,
                 "facebook": true,
                 "google": false,
                 "instapaper": false,
@@ -31,7 +32,7 @@
                 "weibo": false
             },
             "theme-default": {
-                "showLevel": false,
+                "showLevel": true,
                 "styles": {
                     "ebook": "styles/ebook.css",
                     "epub": "styles/epub.css",

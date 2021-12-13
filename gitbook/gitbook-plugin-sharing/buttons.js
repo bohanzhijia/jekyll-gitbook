@@ -47,6 +47,14 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
                 e.preventDefault();
                 window.open('http://vkontakte.ru/share.php?url='+encodeURIComponent(location.href));
             }
+        },
+        'testUrl': {
+            'label': '测试',
+            'icon': 'fa fa-vk',
+            'onClick': function(e) {
+                e.preventDefault();
+                window.open('http://vkontakte.ru/share.php?url='+encodeURIComponent(location.href));
+            }
         }
     };
 
